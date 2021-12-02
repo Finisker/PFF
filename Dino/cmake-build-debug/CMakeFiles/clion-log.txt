@@ -1,4 +1,0 @@
-"C:\Users\Maciej Plachta\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/c++.exe -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/Dino"
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/Dino/cmake-build-debug

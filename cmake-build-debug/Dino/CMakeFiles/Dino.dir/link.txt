@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Dino.dir/src/main.cpp.o CMakeFiles/Dino.dir/src/Entity.cpp.o CMakeFiles/Dino.dir/src/Bird.cpp.o CMakeFiles/Dino.dir/src/Wall.cpp.o CMakeFiles/Dino.dir/src/Dinosaur.cpp.o CMakeFiles/Dino.dir/src/Floor.cpp.o -o Dino.exe -Wl,--out-implib,libDino.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
