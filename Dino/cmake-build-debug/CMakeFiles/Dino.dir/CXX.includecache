@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Entity.h
+cstdio
+-
+iostream
+../include/iostream
+
+../include/Floor.h
+Entity.h
+../include/Entity.h
+
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/Dino/src/main.cpp
+Floor.h
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/Dino/src/Floor.h
+cstdio
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/Dino/src/cstdio
+

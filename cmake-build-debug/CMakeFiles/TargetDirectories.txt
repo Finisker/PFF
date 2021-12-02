@@ -1,0 +1,5 @@
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/cmake-build-debug/Dino/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/cmake-build-debug/Dino/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Maciej Plachta/CLionProjects/PFF/cmake-build-debug/Dino/CMakeFiles/Dino.dir
