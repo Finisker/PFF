@@ -5,17 +5,29 @@
 #ifndef DINO_ENTITY_H
 #define DINO_ENTITY_H
 
+#include "Bird.h"
+#include "Dino.h"
+#include "Cactus.h"
 
 class Entity {
 protected:
     int **matrix;
-    int rowsNumber=10;
-    int columnsNumber=30;
+    int rowsNumber = 10;
+    int columnsNumber = 30;
 public:
     Entity();
+
     ~Entity();
-    int** getMatrix();
-    virtual void setMatrix();
+
+    int **getMatrix();
+
+    int getRowsNumber() const;
+
+    int getColumnsNumber() const;
+
+    virtual void setMatrix() = 0;
+
+    void clearMatrix();
 };
 
 

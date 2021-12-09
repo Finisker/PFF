@@ -4,10 +4,20 @@
 
 #ifndef DINO_BIRD_H
 #define DINO_BIRD_H
+#include "Entity.h"
 
+class Bird: public Entity{
+private:
+    int birdHeight;
+public:
 
-class Bird {
+    void setBirdHeight(int height);
 
+    int getBirdHeight() const;
+
+    void setMatrix() override;
+
+    void advance();
 };
 
 

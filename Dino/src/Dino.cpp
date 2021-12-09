@@ -3,3 +3,13 @@
 //
 
 #include "../include/Dino.h"
+
+int Dino::getStatus() {
+    return this->status;
+}
+
+void Dino::setMatrix() {
+    this->matrix[rowsNumber-1][3]=1;
+    this->matrix[rowsNumber-2][3]=1;
+    this->matrix[rowsNumber-3][3]=1;
+}

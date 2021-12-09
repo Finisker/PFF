@@ -5,9 +5,20 @@
 #ifndef DINO_CACTUS_H
 #define DINO_CACTUS_H
 
+#include "Entity.h"
 
-class Cactus {
+class Cactus : public Entity {
+private:
+    int cactusHeight;
+public:
 
+    void setCactusHeight(int height);
+
+    int getCactusHeight() const;
+
+    void setMatrix() override;
+
+    void advance();
 };
 
 

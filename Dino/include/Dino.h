@@ -5,8 +5,22 @@
 #ifndef DINO_DINO_H
 #define DINO_DINO_H
 
+#include "Entity.h"
 
-class Dino {
+class Dino : public Entity {
+
+private:
+    int status;
+public:
+    void setMatrix();
+
+    int getStatus();
+
+    void setStatus();
+
+    void jump();
+
+    void duck();
 
 };
 
