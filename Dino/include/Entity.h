@@ -9,6 +9,7 @@
 #include "Dino.h"
 #include "Cactus.h"
 
+
 class Entity {
 protected:
     int **matrix;

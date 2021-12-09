@@ -10,12 +10,15 @@ using namespace std;
 
 void drawScene(Scene scene);
 
+void printMatrix(int** matrix);
+
 int main(){
 
     auto bird = new Bird;
     auto cactus = new Cactus;
     cactus->setCactusHeight(1);
     bird->setBirdHeight(4);
+    printMatrix(bird)
 
 
 
@@ -23,9 +26,14 @@ int main(){
 }
 
 void drawScene(Scene scene){
-    for (int row = 0; row < scene.getRowsNumber(); ++row) {
-        for (int column = 0; column < scene.getColumnsNumber(); ++column) {
-            scene.getMatrix()[row][column] = 0;
+
+}
+
+void printMatrix(int** matrix, int rowsNumber, int columnsNumber){
+    for (int row = 0; row < rowsNumber; ++row) {
+        for (int column = 0; column < columnsNumber; ++column) {
+            cout<<matrix[row][column];
         }
+        cout<<endl;
     }
 }

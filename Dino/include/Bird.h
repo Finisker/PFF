@@ -4,9 +4,10 @@
 
 #ifndef DINO_BIRD_H
 #define DINO_BIRD_H
+
 #include "Entity.h"
 
-class Bird: public Entity{
+class Bird : public Entity {
 private:
     int birdHeight;
 public:
