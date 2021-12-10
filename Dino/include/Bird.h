@@ -8,15 +8,9 @@
 #include "Entity.h"
 
 class Bird : public Entity {
-private:
-    int birdHeight;
 public:
 
-    void setBirdHeight(int height);
-
-    int getBirdHeight() const;
-
-    void setMatrix() override;
+    void addBird(int height);
 
     void advance();
 };

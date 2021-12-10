@@ -6,14 +6,24 @@
 #define PFF_SCENE_H
 
 #include "Entity.h"
+#include "Bird.h"
+#include "Dino.h"
+#include "Cactus.h"
 
 class Scene : public Entity {
 public:
 
+    void clear();
+
+    void addMatrix(Bird* bird);
+
+    void addMatrix(Cactus* cactus);
+
+    void addMatrix(Dino* dino);
+
     void addMatrix(int **matrix);
 
-    void setMatrix() override;
-
+    void addFloor();
 };
 
 

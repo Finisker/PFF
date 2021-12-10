@@ -29,14 +29,6 @@ int Entity::getColumnsNumber() const {
     return columnsNumber;
 }
 
-void Entity::clearMatrix() {
-    for (int row = 0; row < this->rowsNumber; ++row) {
-        for (int column = 0; column < this->columnsNumber; ++column) {
-            matrix[row][column] = 0;
-        }
-    }
-}
-
 int **Entity::getMatrix() {
     return matrix;
 }
